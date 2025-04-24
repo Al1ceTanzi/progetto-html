@@ -20,3 +20,29 @@ h1, h2, h3 {
 .img-res{width: 100%;height: auto;}
 
 footer{background: #4b7f55;padding: 15px;}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #59945e;
+    padding: 0 50px;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto; /* spinge il menu tutto a destra */
+  }
+  
+  .menu a {
+    display: block;
+    padding: 50px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px; /* ← aumenta la grandezza del testo */
+  }
+  
+  
