@@ -11,10 +11,12 @@ h1, h2, h3 {
     font-family: 'Dancing Script', cursive;
     color: #59945e;
 }
+.container{padding: 15px;}
 .immagine{
     width: 100%;
     padding-left: 2px;
     padding-right: 20px;
 }
+.img-res{width: 100%;height: auto;}
 
 footer{background: #4b7f55;padding: 15px;}
