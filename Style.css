@@ -1,5 +1,20 @@
+body{
+    background: #cde7d1;
+}
+
+
+body, p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #59945e;
+}
 .immagine{
     width: 100%;
     padding-left: 2px;
     padding-right: 20px;
 }
+
+footer{background: #4b7f55;padding: 15px;}
