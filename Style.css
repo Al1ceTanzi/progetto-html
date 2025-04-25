@@ -5,19 +5,21 @@ body{
 
 body, p {
     font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
 }
 
 h1, h2, h3 {
     font-family: 'Dancing Script', cursive;
     color: #59945e;
+    font-size: 35px;
 }
 .container{padding: 15px;}
 .immagine{
-    width: 100%;
+    width: 80%;
     padding-left: 2px;
     padding-right: 20px;
 }
-.img-res{width: 100%;height: auto;}
+.img-res{width: 80%;height: auto;}
 
 footer{background: #4b7f55;padding: 15px;}
 
