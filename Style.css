@@ -38,13 +38,53 @@ footer{background: #4b7f55;padding: 15px;}
     padding: 0;
     margin-left: auto; /* spinge il menu tutto a destra */
   }
+
+  .menu ul li {
+    position: relative;
+  }
+ 
   
   .menu a {
     display: block;
-    padding: 50px 20px;
-    color: white;
+    padding: 40px 20px;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px; /* ← aumenta la grandezza del testo */
   }
   
-  
+ 
+  .menu ul ul {
+    display: none;
+    position: absolute;
+    background-color: #68a36c;
+    top :100%;
+    left: 0;
+    z-index: 1000;
+    
+  }
+  .menu ul ul li{
+    height: auto;
+    line-height: normal;
+  }
+
+  .menu ul ul li a{
+    color: white;
+    font-size: 18px;
+    height: auto;
+    line-height: 0;
+    display: block;
+    white-space: nowrap;
+  }
+
+
+  nav ul li:hover {
+    background-color: #458045;
+    
+  }
+
+  nav ul li:hover > ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+
