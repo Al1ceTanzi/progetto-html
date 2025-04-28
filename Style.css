@@ -103,3 +103,11 @@ footer{background: #4b7f55;padding: 15px;}
     background-color: #497b4c;
 }
 
+
+a { 
+  color: #59945e;         /* Rende il colore del link uguale al testo circostante */
+}
+
+a:hover {
+  color: #458045;         /* Colore personalizzato quando ci passi sopra con il mouse */
+}
