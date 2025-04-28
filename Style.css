@@ -87,4 +87,19 @@ footer{background: #4b7f55;padding: 15px;}
     flex-direction: column;
   }
 
+  .bottone {
+    display: inline-block;
+    background-color: #59945e;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.bottone:hover {
+    background-color: #497b4c;
+}
 
