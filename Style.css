@@ -13,11 +13,21 @@ h1, h2, h3 {
     color: #59945e;
     font-size: 35px;
 }
+.scheda h3, .scheda span {
+  display: inline;
+  margin-right: 5px;
+}
 .container{padding: 15px;}
 .immagine{
     width: 80%;
     padding-left: 2px;
     padding-right: 20px;
+}
+.immadozioni{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  padding-bottom: 10px;
 }
 .img-res{width: 80%;height: auto;}
 
@@ -121,16 +131,17 @@ a:hover {
 .grid{
   display: flex;
   flex-wrap: wrap;
-  border: 10px solid red;
+
+  
   justify-content: space-between; /* distribuisce meglio i box */
-  gap: 20px; /* aggiunge spazio tra i box */
-  padding: 20px;
+  gap: 18px; /* aggiunge spazio tra i box */
+  padding: 15px;
 
 }
 .col{
-  width: 25%;
-  padding: 10px;
-  border: 1px  #497b4c;
-  border-radius: 10px;
+  width: 28%;
+  padding: 8px;
+  border: 8px groove rgba(0, 107, 32, 0.507);
+  border-radius: 30px;
 }
 footer{background: #4b7f55;padding: 15px;}
