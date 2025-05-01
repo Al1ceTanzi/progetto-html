@@ -135,9 +135,25 @@ a:hover {
   
   justify-content: space-between; /* distribuisce meglio i box */
   gap: 18px; /* aggiunge spazio tra i box */
-  padding: 15px;
+  padding: 30px;
 
 }
+
+.adotta {
+  display: flex;
+  flex-direction: column;
+  background-color: #bfbfbf;
+  padding: 0 80px;
+  align-items: flex-start; /* opzionale: allinea a sinistra */
+}
+.adotta h1 {
+  margin-bottom: 10px; /* Riduci questo valore per meno spazio */
+}
+
+.adotta p {
+  margin-top: 0; /* Elimina qualsiasi margine superiore */
+}
+
 .col {
   width: 28%;
   padding: 8px;
@@ -151,6 +167,38 @@ a:hover {
   background-color: #D3D3D3; /* colore quando passi sopra */
   border-color: rgba(0, 160, 50, 0.8); /* anche bordo più acceso se vuoi */
   cursor: pointer;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  padding: 20px;
+  border: 8px groove rgba(0, 107, 32, 0.507);
+  border-radius: 30px;
+  background-color: white;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  box-sizing: border-box;
+  position: relative; /* Per posizionare la città in alto a destra */
+}
+
+.col .scheda {
+  position: relative;
+}
+
+.col .scheda h3 {
+  margin: 0;
+}
+
+.col .scheda .city {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #333;
+  font-size: 16px;
+  background-color: rgba(0, 107, 32, 0.507); /* Colore di sfondo opzionale */
+  padding: 5px;
+  border-radius: 5px;
 }
 footer{background: #4b7f55;padding: 15px;}
 
