@@ -115,7 +115,7 @@ h1, h2, h3 {
 
 
 a { 
-  color: #f7f7f7;         /* Rende il colore del link uguale al testo circostante */
+  color: #68a36c;         /* Rende il colore del link uguale al testo circostante */
 }
 
 a:hover {
@@ -138,10 +138,19 @@ a:hover {
   padding: 15px;
 
 }
-.col{
+.col {
   width: 28%;
   padding: 8px;
   border: 8px groove rgba(0, 107, 32, 0.507);
   border-radius: 30px;
+  background-color: white; /* colore normale */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.col:hover {
+  background-color: #D3D3D3; /* colore quando passi sopra */
+  border-color: rgba(0, 160, 50, 0.8); /* anche bordo più acceso se vuoi */
+  cursor: pointer;
 }
 footer{background: #4b7f55;padding: 15px;}
+
