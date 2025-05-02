@@ -135,15 +135,15 @@ a:hover {
   
   justify-content: space-between; /* distribuisce meglio i box */
   gap: 18px; /* aggiunge spazio tra i box */
-  padding: 30px;
+  padding: 20px;
 
 }
 
 .adotta {
   display: flex;
   flex-direction: column;
-  background-color: #bfbfbf;
-  padding: 0 80px;
+  background-color: #a7b3a7a1;
+  padding: 0 50px;
   align-items: flex-start; /* opzionale: allinea a sinistra */
 }
 .adotta h1 {
@@ -152,15 +152,6 @@ a:hover {
 
 .adotta p {
   margin-top: 0; /* Elimina qualsiasi margine superiore */
-}
-
-.col {
-  width: 28%;
-  padding: 8px;
-  border: 8px groove rgba(0, 107, 32, 0.507);
-  border-radius: 30px;
-  background-color: white; /* colore normale */
-  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .col:hover {
@@ -173,7 +164,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   width: 28%;
-  padding: 20px;
+  padding: 10px;
   border: 8px groove rgba(0, 107, 32, 0.507);
   border-radius: 30px;
   background-color: white;
@@ -196,8 +187,8 @@ a:hover {
   right: 10px;
   color: #333;
   font-size: 16px;
-  background-color: rgba(0, 107, 32, 0.507); /* Colore di sfondo opzionale */
-  padding: 5px;
+  border: groove rgba(0, 107, 32, 0.507); /* Colore di sfondo opzionale */
+  padding: 2px;
   border-radius: 5px;
 }
 footer{background: #4b7f55;padding: 15px;}
