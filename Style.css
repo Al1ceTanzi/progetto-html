@@ -139,21 +139,6 @@ a:hover {
 
 }
 
-.adotta {
-  display: flex;
-  flex-direction: column;
-  background-color: #a7b3a7a1;
-  padding: 0 50px;
-  align-items: flex-start; /* opzionale: allinea a sinistra */
-}
-.adotta h1 {
-  margin-bottom: 10px; /* Riduci questo valore per meno spazio */
-}
-
-.adotta p {
-  margin-top: 0; /* Elimina qualsiasi margine superiore */
-}
-
 .col:hover {
   background-color: #D3D3D3; /* colore quando passi sopra */
   border-color: rgba(0, 160, 50, 0.8); /* anche bordo più acceso se vuoi */
@@ -197,5 +182,14 @@ a:hover {
   font-weight: bold;     /* o 600, se prima era più spesso */
 }
 
+
+.box-introduzione {
+  background-color: #e2f6e9;
+  border-left: 6px solid #41965c;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  margin-top: 40px;
+}
 footer{background: #4b7f55;padding: 15px;}
 
