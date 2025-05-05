@@ -119,7 +119,7 @@ a {
 }
 
 a:hover {
-  color: #458045;         /* Colore personalizzato quando ci passi sopra con il mouse */
+  color: #a9cbb4;         /* Colore personalizzato quando ci passi sopra con il mouse */
 }
 
 .menu a:hover {
@@ -191,5 +191,11 @@ a:hover {
   padding: 2px;
   border-radius: 5px;
 }
+.piccolo {
+  font-size: 20px; /* o 14px */
+  font-family: inherit; /* eredita il font originale */
+  font-weight: bold;     /* o 600, se prima era più spesso */
+}
+
 footer{background: #4b7f55;padding: 15px;}
 
