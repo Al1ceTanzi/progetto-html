@@ -114,12 +114,12 @@ h1, h2, h3 {
 }
 
 
-a { 
-  color: #68a36c;         /* Rende il colore del link uguale al testo circostante */
+a {  
+  color: #3e6b41;         /* Rende il colore del link uguale al testo circostante */
 }
 
 a:hover {
-  color: #a9cbb4;         /* Colore personalizzato quando ci passi sopra con il mouse */
+  color: #68a36c;         /* Colore personalizzato quando ci passi sopra con il mouse */
 }
 
 .menu a:hover {
