@@ -145,6 +145,7 @@ a:hover {
   cursor: pointer;
 }
 
+
 .col {
   display: flex;
   flex-direction: column;
@@ -185,7 +186,7 @@ a:hover {
 .adozione-link .col {
   display: flex;
   flex-direction: column;
-  width: 28%;
+  width: 30%;
   padding: 10px;
   border: 8px groove rgba(0, 107, 32, 0.507);
   border-radius: 30px;
@@ -212,4 +213,23 @@ a:hover {
   margin-top: 40px;
 }
 footer{background: #4b7f55;padding: 15px;}
+
+
+
+
+@media (max-width: 1150px )
+{
+  .col{
+    width: 47%;
+  }
+ 
+}
+@media (max-width: 700px )
+{
+  .col{
+    width: 98%;
+  }
+}
+
+
 
