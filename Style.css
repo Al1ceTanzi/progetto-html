@@ -19,17 +19,20 @@ h1, h2, h3 {
 }
 .container{padding: 15px;}
 .immagine{
-    width: 80%;
-    padding-left: 2px;
-    padding-right: 20px;
+    width: 90%;
+    padding-left:5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    
 }
 .immadozioni{
   width: 100%;
   height: auto;
   border-radius: 20px;
   padding-bottom: 10px;
+  
 }
-.img-res{width: 80%;height: auto;}
+.img-res{width: 80%;height: auto; ;}
 
 
 
@@ -159,6 +162,35 @@ a:hover {
   position: relative; /* Per posizionare la città in alto a destra */
 }
 
+.colconsigli {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+ 
+}
+.colconsigli .coltesto{
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.colconsigli .colimma  {
+    width: 40%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.colconsigli .colimma img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  padding: 10%;
+}
+
+
 .col .scheda {
   position: relative;
 }
@@ -222,6 +254,14 @@ footer{background: #4b7f55;padding: 15px;}
   .col{
     width: 47%;
   }
+    .colconsigli, .colconsigli.invertito {
+    flex-direction: column;
+  }
+
+  .colconsigli .coltesto,
+  .colconsigli .colimma {
+    width: 100%;
+  }
  
 }
 @media (max-width: 700px )
@@ -229,7 +269,7 @@ footer{background: #4b7f55;padding: 15px;}
   .col{
     width: 98%;
   }
-}
 
+}
 
 
