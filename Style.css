@@ -42,7 +42,20 @@ h1, h2, h3 {
     align-items: center;
     background-color: #59945e;
     padding: 0 50px;
+    padding-left: 18px;
+    
   }
+  .menu .nome{
+    display: flex;
+    list-style: none;
+   margin-right: auto;
+   font-size: 65px;
+   color: #D3D3D3;
+   font-weight: 500;
+
+
+   }
+
   
   .menu ul {
     display: flex;
