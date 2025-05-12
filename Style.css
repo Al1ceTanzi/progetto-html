@@ -34,7 +34,17 @@ h1, h2, h3 {
 }
 .img-res{width: 80%;height: auto; ;}
 
+.titolo {
+  color: white;
+  padding: 0;
+  gap: 10px;
+}
 
+.logo {
+  width: 80px; /* aumenta la dimensione a tua preferenza */
+  height: auto;
+  margin-left: -20px; /* sposta l'immagine verso sinistra */
+}
 
 .menu {
     display: flex;
@@ -134,9 +144,6 @@ a {
   color: #3e6b41;         /* Rende il colore del link uguale al testo circostante */
 }
 
-a:hover {
-  color: #68a36c;         /* Colore personalizzato quando ci passi sopra con il mouse */
-}
 
 .menu a:hover {
   background-color: #4b7f55; /* sfondo più scuro */
