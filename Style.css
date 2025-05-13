@@ -204,7 +204,7 @@ a {
 
 .col:hover {
   background-color: #D3D3D3; /* colore quando passi sopra */
-  border-color: rgba(0, 160, 50, 0.8); /* anche bordo più acceso se vuoi */
+  border-color: rgba(0, 160, 50, 0.8); /* anche bordo più acceso */
   cursor: pointer;
 }
 
@@ -265,7 +265,7 @@ a {
   right: 10px;
   color: #333;
   font-size: 16px;
-  border: groove rgba(0, 107, 32, 0.507); /* Colore di sfondo opzionale */
+  border: groove rgba(0, 107, 32, 0.507); 
   padding: 2px;
   border-radius: 5px;
 }
@@ -290,7 +290,7 @@ a {
 }
 
 .piccolo {
-  font-size: 20px; /* o 14px */
+  font-size: 20px; 
   font-family: inherit; /* eredita il font originale */
   font-weight: bold;     /* o 600, se prima era più spesso */
 }
@@ -307,12 +307,12 @@ a {
 
 .blocco {
   text-align: center;
-  width: 250px; /* puoi cambiare la dimensione */
+  width: 250px; 
 }
 .img1{
   width: 100%;
   height: auto;
-  border-radius: 10px; /* opzionale: angoli arrotondati */
+  border-radius: 10px; 
 }
 .contenitore-immagini {
   display: flex;
@@ -327,13 +327,13 @@ a {
   padding-left: 30px;
 }
 .bottone-container {
-  display: flex; /* Usa flexbox per disporre i bottoni in fila */
-  justify-content: space-between; /* Spazio uniforme tra i bottoni */
-  gap: 20px; /* Spazio tra i bottoni */
-  width: 100%; /* Assicura che la container occupi tutta la larghezza disponibile */
-  padding: 0 100px; /* Aggiungi spazio a sinistra e a destra per distanziare i bottoni dai bordi */
-  box-sizing: border-box; /* Include il padding nel calcolo della larghezza */
-  margin-top: 0; /* Distanza controllata tra la griglia sopra e i bottoni */
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px; 
+  width: 100%; 
+  padding: 0 100px; 
+  box-sizing: border-box; 
+  margin-top: 0; 
   padding-top: 0;
   margin-bottom: 50px;
 }
