@@ -43,9 +43,10 @@ h1, h2, h3 {
 }
 
 .logo {
-  width: 80px; /* aumenta la dimensione a tua preferenza */
-  height: auto;
-  margin-left: -20px; /* sposta l'immagine verso sinistra */
+  height: 100px;
+  width: auto; /* aumenta la dimensione a tua preferenza */
+ 
+  margin-left: -30px; /* sposta l'immagine verso sinistra */
 }
 
 .menu {
@@ -54,7 +55,20 @@ h1, h2, h3 {
     align-items: center;
     background-color: #59945e;
     padding: 0 50px;
+    padding-left: 18px;
+    
   }
+  .menu .nome{
+    display: flex;
+    list-style: none;
+   margin-right: auto;
+   font-size: 65px;
+   color: #D3D3D3;
+   font-weight: 500;
+
+
+   }
+
   
   .menu ul {
     display: flex;
