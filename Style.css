@@ -294,6 +294,9 @@ a {
 .space{
   padding-top: 20px;
 }
+.space1{
+  padding-left: 30px;
+}
 .bottone-container {
   display: flex; /* Usa flexbox per disporre i bottoni in fila */
   justify-content: space-between; /* Spazio uniforme tra i bottoni */
@@ -304,6 +307,23 @@ a {
   margin-top: 0; /* Distanza controllata tra la griglia sopra e i bottoni */
   padding-top: 0;
   margin-bottom: 50px;
+}
+/* menu */
+.col1 {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  padding: 10px;
+  border: 8px groove rgba(0, 107, 32, 0.507);
+  border-radius: 30px;
+  background-color: white;
+  box-sizing: border-box;
+}
+.bottone-centrato {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 footer{background: #4b7f55;padding: 15px;}
 
