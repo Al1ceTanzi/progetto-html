@@ -1,5 +1,7 @@
 body{
     background: #cde7d1;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -250,6 +252,44 @@ a {
   border-radius: 8px;
   font-size: 1.1em;
   margin-top: 40px;
+}
+.sfondo{
+  background-color: white;
+  padding: 40px 20px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.blocco {
+  text-align: center;
+  width: 250px; /* puoi cambiare la dimensione */
+}
+.img1{
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* opzionale: angoli arrotondati */
+}
+.contenitore-immagini {
+  display: flex;
+  justify-content: center; /* centra i blocchi orizzontalmente */
+  gap: 80px; /* spazio tra i blocchi */
+  margin-top: 20px;
+}
+.space{
+  padding-top: 20px;
+}
+.bottone-container {
+  display: flex; /* Usa flexbox per disporre i bottoni in fila */
+  justify-content: space-between; /* Spazio uniforme tra i bottoni */
+  gap: 20px; /* Spazio tra i bottoni */
+  width: 100%; /* Assicura che la container occupi tutta la larghezza disponibile */
+  padding: 0 100px; /* Aggiungi spazio a sinistra e a destra per distanziare i bottoni dai bordi */
+  box-sizing: border-box; /* Include il padding nel calcolo della larghezza */
+  margin-top: 0; /* Distanza controllata tra la griglia sopra e i bottoni */
+  padding-top: 0;
+  margin-bottom: 50px;
 }
 footer{background: #4b7f55;padding: 15px;}
 
