@@ -19,36 +19,24 @@ h1, h2, h3 {
   display: inline;
   margin-right: 5px;
 }
-.container{padding: 15px;}
-.immagine{
-    width: 90%;
-    padding-left:5%;
-    padding-right: 5%;
-    padding-bottom: 50px;
-    
-}
-.immadozioni{
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
-  padding-bottom: 10px;
-  
-}
-.img-res{width: 80%;height: auto; ;}
 
-.titolo {
-  color: white;
-  padding: 0;
-  gap: 10px;
+/* menu */
+.col1 {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  padding: 10px;
+  border: 8px groove rgba(0, 107, 32, 0.507);
+  border-radius: 30px;
+  background-color: white;
+  box-sizing: border-box;
 }
-
-.logo {
-  height: 100px;
-  width: auto; /* aumenta la dimensione a tua preferenza */
- 
-  margin-left: -30px; /* sposta l'immagine verso sinistra */
+.bottone-centrato {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
-
 .menu {
     display: flex;
     justify-content: space-between;
@@ -125,7 +113,62 @@ h1, h2, h3 {
     display: flex;
     flex-direction: column;
   }
+.menu a:hover {
+  background-color: #4b7f55; /* sfondo più scuro */
+  color: #ffffff; /* forza il colore del testo a rimanere bianco */
+  transition: background-color 0.3s ease;
+}
+.sfondo{
+  background-color: white;
+  padding: 40px 20px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.accorcia{
+  margin-top: 0;
+  padding-top: 0;
+}
 
+/* immagini */
+.container{padding: 15px;}
+.immagine{
+    width: 90%;
+    padding-left:5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    
+}
+.immadozioni{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  
+}
+.img-res{
+  width: 80%;
+  height: auto; 
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.titolo {
+  color: white;
+  padding: 0;
+  gap: 10px;
+}
+
+.logo {
+  height: 100px;
+  width: auto; /* aumenta la dimensione a tua preferenza */
+ 
+  margin-left: -30px; /* sposta l'immagine verso sinistra */
+}
+
+/* bottoni */
   .bottone {
     display: inline-block;
     background-color: #59945e;
@@ -147,13 +190,7 @@ a {
   color: #3e6b41;         /* Rende il colore del link uguale al testo circostante */
 }
 
-
-.menu a:hover {
-  background-color: #4b7f55; /* sfondo più scuro */
-  color: #ffffff; /* forza il colore del testo a rimanere bianco */
-  transition: background-color 0.3s ease;
-}
-
+/* adotta */
 .grid{
   display: flex;
   flex-wrap: wrap;
@@ -267,15 +304,7 @@ a {
   font-size: 1.1em;
   margin-top: 40px;
 }
-.sfondo{
-  background-color: white;
-  padding: 40px 20px;
-  border-radius: 20px;
-  width: 90%;
-  max-width: 1200px;
-  margin: 30px auto;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
+
 .blocco {
   text-align: center;
   width: 250px; /* puoi cambiare la dimensione */
@@ -308,28 +337,11 @@ a {
   padding-top: 0;
   margin-bottom: 50px;
 }
-/* menu */
-.col1 {
-  display: flex;
-  flex-direction: column;
-  width: 28%;
-  padding: 10px;
-  border: 8px groove rgba(0, 107, 32, 0.507);
-  border-radius: 30px;
-  background-color: white;
-  box-sizing: border-box;
-}
-.bottone-centrato {
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-}
+
 footer{background: #4b7f55;padding: 15px;}
 
 
-
-
+/* queries */
 @media (max-width: 1150px )
 {
   .col{
@@ -351,6 +363,27 @@ footer{background: #4b7f55;padding: 15px;}
     width: 98%;
   }
 
+}
+
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+    padding: 10px;
+    gap: 16px;
+  }
+
+  .col1 {
+    width: 100%;
+  }
+
+  .immadozioni {
+    width: 100%;
+    height: auto;
+  }
+
+  .bottone {
+    align-self: center;
+  }
 }
 
 
